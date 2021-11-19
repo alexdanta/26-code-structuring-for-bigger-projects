@@ -1,4 +1,4 @@
-name: Ah-G Website CI
+name: AH-G Website CI
 
 on:
   push:
