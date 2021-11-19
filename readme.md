@@ -15,3 +15,6 @@ npm run dev
 npm run build
 ```
 # 26-code-structuring-for-bigger-projects
+
+i have made a change
+
