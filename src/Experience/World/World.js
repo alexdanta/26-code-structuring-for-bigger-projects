@@ -1,8 +1,7 @@
-import * as THREE from 'three'
 import Experience from "../Experience";
-import Fox from '../Fox';
 import Environment from './Environment';
 import Floor from './Floor';
+import Fox from './Fox';
 
 export default class World
 {
@@ -28,6 +27,6 @@ export default class World
     update()
     {
         if(this.fox)
-            this.fox.update()
+        this.fox.update()
     }
 }
