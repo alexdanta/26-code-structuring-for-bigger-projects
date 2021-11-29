@@ -2,6 +2,7 @@ import Experience from "../Experience";
 import Environment from './Environment';
 import Floor from './Floor';
 import Fox from './Fox';
+import Globe from "./Globe";
 
 export default class World
 {
@@ -18,8 +19,9 @@ export default class World
         this.resources.on('ready', () =>
         {
             // Setup
-            this.floor = new Floor() 
-            this.fox = new Fox()
+            this.globe = new Globe ( )
+            // this.floor = new Floor() 
+            // this.fox = new Fox()
             this.environment = new Environment()
         })
     }
